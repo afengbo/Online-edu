@@ -9,4 +9,4 @@ class UserProfileAdmin(admin.ModelAdmin):
     list_filter = ['username', 'nick_name', 'email', 'birthday', 'gender', 'address', 'telphone', 'last_login']
 
 
-admin.site.register(UserProfile, UserProfile)
+admin.site.register(UserProfile, UserProfileAdmin)
